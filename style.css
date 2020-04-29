@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+}
+
+p {
+  font-family: 'PT Sans', sans-serif;
+  color: rgba(0,0,0,0.5);
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 750;
+}
+
+h1{
+  font-size: 700%;
+  color: rgba(255,255,255,0.9);
+}
+
+h2{
+  color: rgba(255,255,255,0.8);
+}
+
+h3 {
+  padding-left: 10px;
+}
+
+h3:hover {
+  background-color: rgba(0,0,0,0.2);
+}
+
+.no-top-margin {
+  margin-top: 0;
+}
+.no-bottom-margin {
+  margin-bottom: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.black-overlay {
+  background-color: rgba(0,0,0,0);
+}
+
+#banner {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://source.unsplash.com/random/1600x600);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background
+  margin: 0 auto;
+  padding: 10% 0;
+}
+
+.container {
+  width: 60%;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
